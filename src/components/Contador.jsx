@@ -13,7 +13,7 @@ const [numero, setNumero] = useState(10)
       <button
         className="btn btn-primary"
         onClick={() => {
-          numero++;
+          setNumero(numero+1);
          
         }}
       >
